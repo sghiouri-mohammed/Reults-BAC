@@ -6,6 +6,6 @@ function calculate(){
 
     var result = national * 0.75 + regional * 0.25;
 
-    document.getElementById('resultat').innerText = "Résultat : " + parseFloat(result);
+    document.getElementById('resultat').innerText = "Mon Seuil : " + parseFloat(result);
 
 }
